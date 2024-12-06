@@ -1,16 +1,21 @@
 {
-    "name": "tabnews_clone",
-    "version": "1.0.0",
-    "description": "[Tabnews](https://tabnews.com.br) clone for learning proposes while consuming the [curso.dev](https://curso.dev/), a full-stack program created by Felipe Deschamps.",
-    "main": "index.js",
-    "scripts": {
-        "dev": "next dev"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "next": "^13.1.6",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    }
+  "name": "tabnews_clone",
+  "version": "1.0.0",
+  "description": "[Tabnews](https://tabnews.com.br) clone for learning proposes while consuming the [curso.dev](https://curso.dev/), a full-stack program created by Felipe Deschamps.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
 }
